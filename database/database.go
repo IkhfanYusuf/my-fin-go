@@ -31,6 +31,7 @@ func DatabaseInit() {
 	fmt.Println("Host:", host)
 	fmt.Println("Port:", port)
 	fmt.Println("Name:", name)
+	fmt.Println("Pass:", pass)
 
 	// susun DSN (Data Source Name)
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
